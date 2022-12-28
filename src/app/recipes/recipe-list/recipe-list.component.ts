@@ -12,6 +12,11 @@ export class RecipeListComponent implements OnInit {
       'This is just a test, no big deal',
       'https://www.bbcgoodfoodme.com/wp-content/uploads/2022/07/Gnocchi_2.jpg'
     ),
+    new Recipe(
+      'A test recipe',
+      'This is just a test, no big deal',
+      'https://www.bbcgoodfoodme.com/wp-content/uploads/2022/07/Gnocchi_2.jpg'
+    ),
   ];
 
   ngOnInit(): void {}
